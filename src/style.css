@@ -1,0 +1,157 @@
+:root{
+  --Paleblue:hsl(225, 100%, 94%)
+  --Brightblue:hsl(245, 75%, 52%)
+  --Verypaleblue:hsl(225, 100%, 98%)
+  --Desaturatedblue: hsl(224, 23%, 55%)
+  --Darkblue:hsl(223, 47%, 23%)
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  box-sizing: border-box;
+  line-height: 1;
+  font-size: 1em;
+  background-color: #d6e1ff;
+  font-family: 'Red Hat Display', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+span{
+	display: inline-block;
+}
+.collapse{
+	width: 320px;
+	height: 557px;
+	border-radius: 20px;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+}
+.photo img{
+	width: 320px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+#Heading-1{
+	font-size: 2em;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 25px;
+}
+#text{
+	text-align: center;
+	margin-top: 39px;
+	padding: 0 20px;
+	font-weight: 700;
+	color: #828598;
+}
+.annual-plan{
+width: 300px;
+height: 98px;
+position: relative;
+border-radius: 10px;
+background-color: azure;
+margin-top: 41px;
+margin-left: auto;
+margin-right: auto;
+}
+#btn-1{
+	width: 271px;
+	height: 98px;
+	background-color: #382ae1;
+	border: #382ae1 2px solid;
+	margin: 0 auto;
+	border-radius: 10px;
+	color: #f7f8fe;
+}
+#btn-1:hover{
+	background-color: #a098e4;
+	border: #a098e4;
+}
+#btn-2{
+	width: 271px;
+	height: 98px;
+	background-color: #f7f8fe;
+	margin: 10px auto;
+	border-radius: 10px;
+	color:#767d9a;
+	border: none;
+}
+#btn-2:hover{
+	color: #000000;
+}
+
+.svg img{
+	margin: 25px 10px;
+}
+#Heading-2{
+	position: absolute;
+	top: 25px;
+	right: 132px;
+	font-weight: 900;
+	color: #212b49;
+}
+#Heading-3{
+	position: absolute;
+	top: 55px;
+	right: 135px;
+	color: #959cb5;
+}
+#link-1{
+	position: absolute;
+	top: 39px;
+	right: 45px;
+}
+#link-1:hover{
+	text-decoration: none;
+	color: #7a6eeb;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
